@@ -1,6 +1,6 @@
 #include <linux/module.h>
 #include <linux/init.h>
-#include <linus/printk.h>
+#include <linux/printk.h>
 
 #define SUCCESS (0)
 
