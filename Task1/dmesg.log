@@ -1,0 +1,4 @@
+[ 6229.016204] hello: loading out-of-tree module taints kernel.
+[ 6229.016210] hello: module verification failed: signature and/or required key missing - tainting kernel
+[ 6229.017379] Hello World, from 0x0000000024d929f6
+[ 6380.725181] Goodbye World, from 0x00000000c6903d73
