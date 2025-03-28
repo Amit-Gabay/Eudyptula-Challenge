@@ -1,0 +1,28 @@
+From bbf3d3661e0ece7ad6ebe963543ea0975ade010e Mon Sep 17 00:00:00 2001
+From: Amit Gabay <amitgabay9142@gmail.com>
+Date: Fri, 28 Mar 2025 15:13:12 +0300
+Subject: [PATCH] kbuild: set EXTRAVERSION according to Eudyptula guidelines
+
+Set EXTRAVERSION to "-eudyptula", according to eudyptula guidelines.
+
+Signed-off-by: Amit Gabay <amitgabay9142@gmail.com>
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index e55726a71d95..0f2b7273733c 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 6
+ PATCHLEVEL = 14
+ SUBLEVEL = 0
+-EXTRAVERSION =
++EXTRAVERSION = -eudyptula
+ NAME = Baby Opossum Posse
+ 
+ # *DOCUMENTATION*
+-- 
+2.49.0
+
