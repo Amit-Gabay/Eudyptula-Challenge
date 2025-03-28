@@ -16,7 +16,7 @@ Finally, you can see that before the output was:
 6.14.0-next-20250328
 ```
 
-And after the output became:
+And after (compiling, using `make install` and rebooting) the output became:
 ```
 ➜  /boot uname -r
 6.14.0-eudyptula-next-20250328+
